@@ -1,7 +1,25 @@
 aid: lupin-and-holmes
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lupin-and-holmes.png
 name: Lupin & Holmes
-description: Lupin & Holmes is a company surfaced as a portfolio company of seedcamp and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Lupin & Holmes is an offensive-security and social-engineering research
+  firm that blends adversarial creativity with rigorous logic to strengthen defensive
+  security practices. Its flagship product, Depi, is a proactive cybersecurity dashboard
+  for software supply-chain protection, giving security teams real-time visibility
+  into dependency vulnerabilities, patch tracking, and risk response. The company
+  also publishes hands-on security research covering supply-chain attacks, dependency
+  confusion, and CI/CD exploitation. It was surfaced as a portfolio company of Seedcamp
+  and added to the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/lupin-and-holmes/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +29,45 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Cybersecurity
+- Security
+- Offensive Security
+- Supply Chain Security
+- Vulnerability Management
+- Social Engineering
+- Security Research
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
 common:
 - type: Website
-  url: http://landh.tech
+  url: https://landh.tech
+- type: Blog
+  url: https://landh.tech/blog
+- type: GitHubOrganization
+  url: https://github.com/Lupin-Holmes
+- type: TermsOfService
+  url: https://landh.tech/terms
+- type: PrivacyPolicy
+  url: https://landh.tech/privacy
+- type: WellKnown
+  url: well-known/lupin-and-holmes-well-known.yml
+- type: SecurityTxt
+  url: well-known/lupin-and-holmes-security.txt
+- type: VulnerabilityDisclosure
+  url: security/lupin-and-holmes-vulnerability-disclosure.yml
+- type: Security
+  url: https://landh.tech/.well-known/security.txt
+- type: DomainSecurity
+  url: security/lupin-and-holmes-domain-security.yml
